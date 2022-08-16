@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: springgreen;
+  text-align: center;
+  padding-bottom: 10px;
+}
+header h1 {
+  color: black;
+}
+
+.item {
+  display: grid;
+  background-color: springgreen;
+  grid-gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+}
+
+.item1 {
+  background-image: url(multimedia/prod1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item2 {
+  background-image: url(multimedia/prod2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item3 {
+  background-image: url(multimedia/prod3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url(multimedia/prod5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item5 {
+  background-image: url(multimedia/prod4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item6 {
+  background-image: url(multimedia/prod6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: springgreen;
+}
+footer article {
+  text-align: center;
+  background-color: black;
+}
+footer h3 {
+  color: white;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
