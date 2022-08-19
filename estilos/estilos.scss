@@ -26,32 +26,32 @@ header{
     grid-template-rows: repeat(2, 200px);
 }
 .item1{
-    background-image: url(multimedia/prod1.jpg);
+    background-image: url(../multimedia/prod1.jpg);
     background-position: center;
     background-size: cover;
 }
 .item2{
-    background-image: url(multimedia/prod2.jpg);
+    background-image: url(../multimedia/prod2.jpg);
     background-position: center;
     background-size: cover;
 }
 .item3{
-    background-image: url(multimedia/prod3.jpg);
+    background-image: url(../multimedia/prod3.jpg);
     background-position: center;
     background-size: cover;
 }
 .item4{
-    background-image: url(multimedia/prod5.jpg);
+    background-image: url(../multimedia/prod4.jpg);
     background-position: center;
     background-size: cover;
 }
 .item5{
-    background-image: url(multimedia/prod4.jpg);
+    background-image: url(../multimedia/prod5.jpg);
     background-position: center;
     background-size: cover;
 }
 .item6{
-    background-image: url(multimedia/prod6.jpg);
+    background-image: url(../multimedia/prod6.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -59,11 +59,15 @@ footer{
     font-family: 'DynaPuff', cursive;
     background-color: $colorfondo;
 
-    article{
+    div{
         text-align: center;
-        background-color: black;
+        background-color:  black;
     }
     
+    h2{
+        color: white;
+    }
+
     h3{
         color: white;
         padding: 10px;
@@ -73,4 +77,8 @@ footer{
     display: flex;
     flex-direction: row;
     padding: 10px;
+}
+
+.footerDerechos{
+    background-color: black;
 }
