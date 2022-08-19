@@ -66,24 +66,22 @@ footer {
 }
 footer div {
   text-align: center;
-  background-color: black;
 }
 footer h2 {
-  color: white;
+  color: black;
 }
 footer h3 {
   color: white;
   padding: 10px;
 }
-
-.footer {
+.footer{
   display: flex;
   flex-direction: row;
   padding: 10px;
 }
-
 .footerDerechos {
   background-color: black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -61,11 +61,10 @@ footer{
 
     div{
         text-align: center;
-        background-color:  black;
     }
     
     h2{
-        color: white;
+        color: black;
     }
 
     h3{
@@ -78,7 +77,7 @@ footer{
     flex-direction: row;
     padding: 10px;
 }
-
 .footerDerechos{
     background-color: black;
+    text-align: center;
 }
